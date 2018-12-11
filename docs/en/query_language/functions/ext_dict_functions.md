@@ -16,10 +16,10 @@ For information on connecting and configuring external dictionaries, see "[Exter
 
 ## dictGetString
 
-`dictGetT('dict_name', 'attr_name', id)`
+`dictGetString('dict_name', 'attr_name', tuple('string for field1', num_for_field2))`
 
-- Get the value of the attr_name attribute  from the dict_name dictionary using the 'id' key.`dict_name`  and `attr_name`  are constant strings.`id`must be UInt64.
-If there is no `id` key in the dictionary, it returns the default value specified in the dictionary description.
+- Get the value of the attr_name attribute from the dict_name dictionary using the 'tuple' value .
+If there is no `tuple` value in the dictionary, it returns the default value specified in the dictionary description.
 
 ## dictGetTOrDefault
 
